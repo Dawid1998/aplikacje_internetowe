@@ -1,0 +1,19 @@
+#container {
+    width: 500px;
+    margin: 0 auto;
+    background-color: black;
+
+}
+div {
+    width: 75%;
+    background-color: blue;
+}
+
+div.first {
+    background-color: darkmagenta;
+    height: 24px;
+    transition: height 1s ease-out;
+}
+div.first:hover {
+height: 100px;
+}
