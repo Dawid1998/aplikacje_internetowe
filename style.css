@@ -1,19 +1,25 @@
 #container {
-    width: 500px;
+    width: 70%;
     margin: 0 auto;
-    background-color: black;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
 
 }
-div {
-    width: 75%;
+#container > div {
+    width: 80px;
+    height: 70px;
+    flex-grow: 1;
     background-color: blue;
+    transition: all .3s linear;
 }
 
-div.first {
+#container > div:nth-child(2){
     background-color: darkmagenta;
-    height: 24px;
-    transition: height 1s ease-out;
+    width: 80px;
+    height: 70px;
+
 }
-div.first:hover {
-height: 100px;
+#container >  div:hover {
+background-color: red;
 }
